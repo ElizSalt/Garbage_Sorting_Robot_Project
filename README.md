@@ -1,14 +1,24 @@
 # Garbage Sorting Robot Project
 Variables:
-distanceToWall (float)
-const lengthOfBin (length of bin) (float)
-distanceToBin (float) (Distance from each bin to origin)
-binColor (color)
-numDegrees (int)
-colorFound (bool)
-timeSpent (float)
-shutDown (bool)
+
+distanceToWall (float);
+
+const lengthOfBin (length of bin) (float);
+
+distanceToBin (float) (Distance from each bin to origin);
+
+binColor (color);
+
+numDegrees (int);
+
+colorFound (bool);
+
+timeSpent (float);
+
+shutDown (bool);
+
 Functions:
+
 void setSensorSetup() - initialize and calibrate sensors, zero motor encoders and gyro
 Will test by using sensors in other functions
 Gyro[], MotorEncoder[], Platform[], 
